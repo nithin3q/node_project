@@ -1,0 +1,7 @@
+const path=require('path')
+let ext =path.extname('/file.txt')
+let basename=path.basename('/file.txt')
+console.log(basename)
+console.log(__dirname)
+console.log(__filename)
+console.log(ext)
